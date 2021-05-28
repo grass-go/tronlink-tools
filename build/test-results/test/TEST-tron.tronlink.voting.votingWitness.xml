@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tron.tronlink.voting.votingWitness" tests="6" skipped="6" failures="0" errors="0" timestamp="2021-05-23T06:21:53" hostname="192.168.1.5" time="0.003">
+  <properties/>
+  <testcase name="Test000getAllWitnesses" classname="tron.tronlink.voting.votingWitness" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test001getAllWitnesses" classname="tron.tronlink.voting.votingWitness" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test002getAllWitnesses" classname="tron.tronlink.voting.votingWitness" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test003getAllWitnesses" classname="tron.tronlink.voting.votingWitness" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test004getAllWitnesses" classname="tron.tronlink.voting.votingWitness" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test005getAllWitnesses" classname="tron.tronlink.voting.votingWitness" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

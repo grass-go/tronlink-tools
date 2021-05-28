@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tron.tronlink.wallet.multiTrxRecord" tests="3" skipped="3" failures="0" errors="0" timestamp="2021-05-23T06:21:53" hostname="192.168.1.5" time="0.0">
+  <properties/>
+  <testcase name="multiTrxRecord0" classname="tron.tronlink.wallet.multiTrxRecord" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="multiTrxRecord1" classname="tron.tronlink.wallet.multiTrxRecord" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="multiTrxRecord2" classname="tron.tronlink.wallet.multiTrxRecord" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

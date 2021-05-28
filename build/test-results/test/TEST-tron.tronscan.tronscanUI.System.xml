@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tron.tronscan.tronscanUI.System" tests="3" skipped="3" failures="0" errors="0" timestamp="2021-05-23T06:21:53" hostname="192.168.1.5" time="0.001">
+  <properties/>
+  <testcase name="testFullnodeInfo" classname="tron.tronscan.tronscanUI.System" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSolidityInfo" classname="tron.tronscan.tronscanUI.System" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSystemInfo" classname="tron.tronscan.tronscanUI.System" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

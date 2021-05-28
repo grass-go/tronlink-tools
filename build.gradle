@@ -1,0 +1,120 @@
+plugins {
+    id 'java'
+}
+
+group 'org.tron'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven {
+        url  'https://dl.bintray.com/tronj/tronj'
+    }
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
+    compile group: 'org.testng', name: 'testng', version: '6.14.3'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.6.0'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '3.6.0'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '2.23.0'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    compile group: 'org.slf4j', name: 'jcl-over-slf4j', version: '1.7.25'
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.44'
+    compile group: 'com.typesafe', name: 'config', version: '1.3.2'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    compile group: 'org.slf4j', name: 'jcl-over-slf4j', version: '1.7.25'
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.2'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.44'
+    //implementation 'org.tron.tronj:abi:0.1.1'
+//    implementation 'org.tron.tronj:client:0.1.1'
+//    implementation 'org.tron.tronj:utils:0.1.1'
+    implementation 'com.github.tronprotocol:java-tron:release_4.1.2-SNAPSHOT'
+    compile group: 'org.java-websocket', name: 'Java-WebSocket', version: '1.5.1'
+
+
+}
+
+test {
+    useTestNG()
+    systemProperties 'property': 'value'
+}
+task tronscan(type: Test) {
+
+    useTestNG {
+        suites(file('src/test/resources/testng_tronscanUI.xml'))
+        parallel 'tests'
+        threadCount 1
+
+    }
+    testLogging {
+        exceptionFormat = 'full'
+        showStackTraces = "true"
+    }
+
+}
+task tronscanApi(type: Test) {
+
+    useTestNG {
+        suites(file('src/test/resources/testng_tronscanAPI.xml'))
+        parallel 'tests'
+        threadCount 1
+
+    }
+    testLogging {
+        exceptionFormat = 'full'
+        showStackTraces = "true"
+    }
+
+}
+
+task djedAPI(type: Test) {
+
+    useTestNG {
+        suites(file('src/test/resources/testng_djedAPI.xml'))
+        parallel 'tests'
+        threadCount 1
+
+    }
+    testLogging {
+        exceptionFormat = 'full'
+        showStackTraces = "true"
+    }
+
+
+
+}
+
+task tronlinkAPI(type: Test) {
+
+    useTestNG {
+        suites(file('src/test/resources/testng_tronlinkAPI.xml'))
+        parallel 'tests'
+        threadCount 1
+
+    }
+    testLogging {
+        exceptionFormat = 'full'
+        showStackTraces = "true"
+    }
+
+
+
+}
+task wqqBuild(type: Test) {
+    useTestNG {
+        suites(file('src/test/resources/testng_wqq.xml'))
+        parallel 'tests'
+        threadCount 1
+    }
+    testLogging {
+        exceptionFormat = 'full'
+        showStackTraces = "true"
+    }
+}
+

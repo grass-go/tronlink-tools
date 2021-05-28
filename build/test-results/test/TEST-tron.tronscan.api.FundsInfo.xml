@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tron.tronscan.api.FundsInfo" tests="6" skipped="6" failures="0" errors="0" timestamp="2021-05-23T06:21:53" hostname="192.168.1.5" time="0.004">
+  <properties/>
+  <testcase name="getBitt_fund" classname="tron.tronscan.api.FundsInfo" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="getBitt_graphic" classname="tron.tronscan.api.FundsInfo" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="getFundTest" classname="tron.tronscan.api.FundsInfo" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="getWinkFund" classname="tron.tronscan.api.FundsInfo" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="getWink_graphic" classname="tron.tronscan.api.FundsInfo" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test01FundsInfo" classname="tron.tronscan.api.FundsInfo" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tron.tronlink.wallet.MarketTrxUsdt" tests="13" skipped="13" failures="0" errors="0" timestamp="2021-05-23T06:21:53" hostname="192.168.1.5" time="0.005">
+  <properties/>
+  <testcase name="Test000getMarketTrxUsdt" classname="tron.tronlink.wallet.MarketTrxUsdt" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test001getMarketTrxUsdt" classname="tron.tronlink.wallet.MarketTrxUsdt" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test002getMarketTrxUsdt" classname="tron.tronlink.wallet.MarketTrxUsdt" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test003getMarketTrxUsdt" classname="tron.tronlink.wallet.MarketTrxUsdt" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test004getMarketTrxUsdt" classname="tron.tronlink.wallet.MarketTrxUsdt" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test005getMarketTrxUsdt" classname="tron.tronlink.wallet.MarketTrxUsdt" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test006getMarketTrxUsdt" classname="tron.tronlink.wallet.MarketTrxUsdt" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test007getMarketTrxUsdj" classname="tron.tronlink.wallet.MarketTrxUsdt" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test007getMarketTrxUsdt" classname="tron.tronlink.wallet.MarketTrxUsdt" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test008getMarketTrxUsdt" classname="tron.tronlink.wallet.MarketTrxUsdt" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test009getMarketTrxUsdt" classname="tron.tronlink.wallet.MarketTrxUsdt" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test010getMarketTrxUsdt" classname="tron.tronlink.wallet.MarketTrxUsdt" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test011getMarketTrxUsdt" classname="tron.tronlink.wallet.MarketTrxUsdt" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
