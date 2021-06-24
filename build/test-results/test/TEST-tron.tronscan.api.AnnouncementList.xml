@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tron.tronscan.api.AnnouncementList" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-05-23T06:21:53" hostname="192.168.1.5" time="0.0">
-  <properties/>
-  <testcase name="getAnnouncement" classname="tron.tronscan.api.AnnouncementList" time="0.0">
-    <skipped/>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
